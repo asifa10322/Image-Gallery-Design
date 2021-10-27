@@ -1,0 +1,28 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin:30px 0 50px;
+}
+.gallry{
+    margin: 10px 50px;
+}
+.gallry img{
+    width: 240px;
+    height: 240px;
+    padding:auto;
+    filter:grayscale(100%);
+    transition: 1s;
+} 
+.gallry img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+body{
+    background-image:url('mm.jpg') ;
+    height: auto;
+    width: auto;
+    
+}
